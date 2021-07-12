@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+video{
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: -1;
+}
+
+.hp-container {
+    /* background-image: url("bg.png");
+    background-size: cover; */
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+  }
+
+
+.hp-card-container{
+    padding-top:10px;
+    padding-bottom: 50px;
+    width:80%;
+    color: aliceblue;
+    
+}
+
+.padd{
+    padding: 30px;
+}
+
+.header{
+    height: 50px;
+    width: 100%;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards{
+    width: 100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card{
+    height: 280px;
+    width: 18%;
+    background-color: brown;
+    margin-top: 20px;
+    border-radius: 8px;
+    transition:  0.5s;
+    background-size: cover;
+
+}
+
+.card:hover{
+    transform: scale(1.09);
+}
+
+.overlay{
+    height: 280px;
+    width: 100%;
+    background-image: url("hplogo.jpg");
+    background-size:cover;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid rgb(240, 240, 240);
+}
+
+.opened{
+    display: none;
+}
+
+.reload{
+    width:300px;
+    height: 200px;
+}
