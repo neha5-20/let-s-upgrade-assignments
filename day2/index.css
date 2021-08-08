@@ -1,0 +1,25 @@
+.container_1{
+    margin-top: 20px;
+}
+
+.row_1{
+    margin-bottom: 50px;
+}
+.card_1{
+    height: 400px;
+
+}
+
+.card_1 img{
+    object-fit: cover;
+    height: 60%;
+    padding-top: 9px;
+    padding-bottom: 4px;
+}
+
+.one{
+    background-color: rgba(0, 0, 0, 0.836);
+    color: antiquewhite;
+    margin-bottom: 9px;
+    
+}
